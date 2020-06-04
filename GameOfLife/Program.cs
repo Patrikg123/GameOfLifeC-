@@ -11,15 +11,15 @@ namespace GameOfLife
         static void Main(string[] args)
         {
             board[4][4] = 1;
-            board[3][4] = 1;
-            board[4][3] = 1;
-            board[3][3] = 1;
+            board[4][5] = 1;
+            board[4][6] = 1;
+            board[5][3] = 1;
+            board[5][4] = 1;
             board[5][5] = 1;
-            board[6][5] = 1;
-            board[5][6] = 1;
-            board[6][6] = 1;
 
-           
+
+
+
 
 
             while (true)
