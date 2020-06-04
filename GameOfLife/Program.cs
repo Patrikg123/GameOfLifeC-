@@ -12,14 +12,12 @@ namespace GameOfLife
         {
             board[4][4] = 1;
             board[3][4] = 1;
-            board[5][4] = 1;
-            //board[3][5] = 1;
-            //board[4][3] = 1;
-           // board[3][3] = 1;
-            //board[5][5] = 1;
-            //board[6][5] = 1;
-            //board[5][6] = 1;
-            //board[6][6] = 1;
+            board[4][3] = 1;
+            board[3][3] = 1;
+            board[5][5] = 1;
+            board[6][5] = 1;
+            board[5][6] = 1;
+            board[6][6] = 1;
 
            
 
@@ -29,7 +27,7 @@ namespace GameOfLife
 
                 showBoard();
                 lives();
-                System.Threading.Thread.Sleep(3000);
+                System.Threading.Thread.Sleep(1000);
                 Console.Clear();
                
                 clearBoard();
